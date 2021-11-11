@@ -23,6 +23,7 @@ docker run -it playwright-crash-repro npx playwright test -c tracing.config.ts -
 ```
 
 Behavior -- everything works perfectly.
+
 Case 4: Chrome, no tracing: 
 ```
 docker run -it playwright-crash-repro npx playwright test --project chrome --repeat-each 20
